@@ -23,7 +23,7 @@ namespace UE4SSL.Test
         public void OnInitRigSpace()
         {
             Debug.Log(LogLevel.Warning, "OnInitRigSpace");
-            Debug.Log(LogLevel.Warning, "Hello World！");
+            Debug.Log(LogLevel.Warning, "Hello World");
         }
 
         public void TestPrintCurrentlyDifficultyInfo()
