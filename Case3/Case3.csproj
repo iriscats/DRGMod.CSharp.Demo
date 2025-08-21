@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Platforms>x64</Platforms>
+        <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Acornima">
+        <HintPath>..\Libs\Acornima.dll</HintPath>
+      </Reference>
+      <Reference Include="Jint">
+        <HintPath>..\Libs\Jint.dll</HintPath>
+      </Reference>
+      <Reference Include="UE4SSL.Framework">
+        <HintPath>..\Libs\UE4SSL.Framework.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
